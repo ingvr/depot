@@ -45,9 +45,9 @@ gem 'bcrypt-ruby', '~> 3.1.2'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-#group :production do
-#    gem 'mysql2', '~> 0.3.18'
-#end
+group :production do
+    gem 'mysql2', '~> 0.3.18'
+end
 
 group :development do
     gem 'capistrano',         require: false
