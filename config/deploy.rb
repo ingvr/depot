@@ -1,9 +1,9 @@
 # Change these
-server '139.59.236.218', port: 20, roles: [:web, :app, :db], primary: true
+server '139.59.236.218', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'https://github.com/nzmi/depot.git'
+set :repo_url,        'git@github.com:nzmi/depot.git'
 set :application,     'depot'
-set :user,            'nzmi'
+set :user,            'nezumi'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
